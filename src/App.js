@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
+import Lottery from './Lottery'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Lottery 
+        name="High Ball"
+        MaxNum={40}
+        Nballs={6}
+      />  
+      <Lottery 
+        name="Mini Roll"
+        MaxNum={10}
+        Nballs={4}
+      />
     </div>
   );
 }

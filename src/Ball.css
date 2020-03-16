@@ -1,0 +1,12 @@
+.Ball
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px;
+    color:#fff;
+    background-color: orange;
+    height:30px;
+    width:30px;
+    border-radius: 1000px;
+}
